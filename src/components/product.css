@@ -1,0 +1,76 @@
+.search {
+  width: auto;
+  padding: 2rem 0;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+
+  /* justify-content: space-between; */
+  align-items: safe;
+}
+.mainCont {
+  width: 90vw;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: "auto";
+  max-width: fit-content;
+  margin: "auto";
+  height: "100%";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.city-selector {
+  display: flex;
+  width: 13rem;
+  justify-content: space-evenly;
+  font-size: 14px;
+  background: #ffa85a;
+  height: 2rem;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.fil {
+  width: auto;
+  display: flex;
+  align-items: self-start;
+  flex-direction: column;
+  height: 100%;
+  min-width: fit-content;
+  padding: 1rem;
+  border-right: solid 2px gainsboro;
+}
+.fil input {
+  border: none;
+}
+.date-box {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  text-align: start;
+}
+.date-box input {
+  border: none;
+}
+
+.btnn {
+  margin-left: 2rem;
+  width: 60%;
+  height: 3rem;
+  background-color: #ffa85a;
+  font-weight: 700;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
