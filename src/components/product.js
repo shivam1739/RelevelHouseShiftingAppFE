@@ -61,9 +61,17 @@ const Product = () => {
               padding: "1rem",
             }}
           >
-            <div className="date-box">
-              <lable>On</lable>
-              <input type="date" />
+            <div>
+              <div className="date-box">
+                <lable>On</lable>
+                <input type="date" />
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="flexible-checkbox" />
+                <label class="checkbox-label" for="flexible-checkbox">
+                  Is Flexible
+                </label>
+              </div>
             </div>
 
             <button className="btnn"> Get free quote</button>
